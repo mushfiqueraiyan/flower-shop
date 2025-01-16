@@ -27,7 +27,7 @@ section{
     align-items: center;
     justify-content: center;
     background-color: #fceef1;
-    padding: 45px 200px 0px;
+    padding: 45px 190px 0px;
     gap: 80px;
     height: 90vh;
 }
@@ -37,7 +37,7 @@ section{
     
 }
 .left-hero h1{
-    font-size: 4.5em;
+    font-size: 4.0em;
     font-weight: 800;
     color: #272727;
     line-height: 90px;
