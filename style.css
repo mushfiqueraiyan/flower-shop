@@ -229,12 +229,56 @@ section{
 }
 
 
+/* email section */
 
 
+.email-container{
+    background-image: url(Flower\ Asset/Rectangle9.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 120px 0px;
+    margin-top: 150px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
 
+.email-container h2{
+    font-weight: 800;
+    color: #272727;
+    font-size: 2.5rem;
+}
 
+.email-container p{
+    font-size: 1.12rem;
+    color: #272727c4;
+    margin: 15px 0px 0px;
+    line-height: 2.0rem;
+}
 
+.email-letter{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
 
+.email-letter input{
+    width: 50%;
+    padding: 20px 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+.primary-btn-email{
+    padding: 17px 40px;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #fff;
+    background-color: #e55473;
+    border: none;
+    border-radius: 8px;
+}
 
 @media screen and (max-width: 576px) {
     .hero-container{
@@ -425,7 +469,7 @@ section{
 
 .insta-image{
     margin-top: 48px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 25px;
@@ -435,4 +479,60 @@ section{
 .insta-image img{
     width: 100%;
 }
+
+/* email section */
+.email-container{
+    background-image: url(Flower\ Asset/Rectangle9.png);
+    background-position: center;
+    background-size: 900px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 120px 0px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+.email-container h2{
+    font-weight: 800;
+    color: #272727;
+    font-size: 2.5rem;
+    padding-top: 100px;
+}
+
+.email-container p{
+    font-size: 1.12rem;
+    color: #272727c4;
+    margin: 15px 0px 0px;
+    line-height: 2.0rem;
+}
+
+.email-letter{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 15px;
+}
+
+.email-letter input{
+    width: 100%;
+    padding: 20px 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+.primary-btn-email{
+    padding: 17px 40px;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #fff;
+    background-color: #e55473;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
 }
