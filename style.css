@@ -30,6 +30,7 @@ section{
     padding: 45px 190px 0px;
     gap: 80px;
     height: 95vh;
+    overflow: hidden;
 }
 
 .left-hero{
@@ -52,10 +53,12 @@ section{
 
 .right-hero{
     width: 40%;
+
 }
 
 .right-hero img{
     width: 120%;
+    
    
 }
 
@@ -126,6 +129,49 @@ section{
     text-decoration: underline;
     margin-top: 24px;
 }
+
+
+/* info section start */
+
+.info-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    padding: 85px 150px;
+    border-radius: 8px;
+}
+
+.info{
+    text-align: center;
+}
+
+.info p{
+    margin-top: 24px;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #272727c4;
+
+}
+
+.info img{
+    width: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 576px) {
     .hero-container{
@@ -222,5 +268,34 @@ section{
         background-color: #daeff1;
         padding: 140px 40px 0px;
         
+    }
+
+    /* info section */
+
+    .info-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #f4f4f4;
+        padding: 85px 15px;
+        border-radius: 8px;
+    }
+    
+    .info{
+        text-align: center;
+    }
+    
+    .info p{
+        margin-top: 24px;
+        margin-bottom: 40px;
+        font-size: 1.3em;
+        font-weight: 600;
+        color: #272727c4;
+    
+    }
+    
+    .info img{
+        width: 5em;
     }
 }
